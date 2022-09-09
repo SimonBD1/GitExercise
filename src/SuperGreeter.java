@@ -19,11 +19,15 @@ public class SuperGreeter {
         int alder = scanner.nextInt();
         System.out.println(alder +" Det er lige gammelt nok til mig ;)");
     }
+    public void stupidMethod(){
+        int goat = 8;
+        System.out.println(goat);
+    }
     public static void main (String [] args) {
     SuperGreeter sg= new SuperGreeter();
     sg.start();
     sg.greet();
     sg.smallTalk();
-
+    sg.stupidMethod();
     }
 }
